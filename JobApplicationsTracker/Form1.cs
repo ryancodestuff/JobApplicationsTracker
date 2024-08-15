@@ -1,12 +1,7 @@
-﻿using StockDataApp.BackEnd.Services;
+﻿using JobApplicationsTracker.DataProcess;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace JobApplicationsTracker
@@ -15,25 +10,16 @@ namespace JobApplicationsTracker
     {
         Font SmallFont = new Font("Arial", 8);
         Font MediumFont = new Font("Arial", 10);
-        Font LargeFont = new Font("Arial", 12);
+        Font LargeFont = new Font("Arial", 16, FontStyle.Bold);
         public Form1()
         {
             InitializeComponent();
             panel1.Visible = false;
-            SetAppearance();
         }
-
-        public void SetAppearance()
-        {
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.FlatAppearance.BorderSize = 0;
-
-            label1.Font = LargeFont;
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            panel1.Visible = true;  
+            panel1.Visible = true;
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -43,8 +29,11 @@ namespace JobApplicationsTracker
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Connection obj = new Connection();
-            obj.getDataSet("INSERT INTO [dbo].[Table] (Id, Name, Url, CVLocation, CoverLetterLocation, Status)\r\nVALUES (1, 'John Doe', 'http://example.com', 'C:\\\\CVs\\\\JohnDoe.pdf', 'C:\\\\CoverLetters\\\\JohnDoe.pdf', 1);\r\n");
+            var codec = new Codec();
+            if (!codec.ValidateTitle(textBox1.Text))
+                textBox1.Text = string.Empty;
+            if (!codec.ValidateURL(textBox2.Text))
+                textBox2.Text = string.Empty;
         }
 
         private void folderBrowserDialog1_HelpRequest(object sender, EventArgs e)
@@ -63,6 +52,46 @@ namespace JobApplicationsTracker
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
