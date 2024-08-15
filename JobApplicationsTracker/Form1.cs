@@ -13,10 +13,22 @@ namespace JobApplicationsTracker
 {
     public partial class Form1 : Form
     {
+        Font SmallFont = new Font("Arial", 8);
+        Font MediumFont = new Font("Arial", 10);
+        Font LargeFont = new Font("Arial", 12);
         public Form1()
         {
             InitializeComponent();
             panel1.Visible = false;
+            SetAppearance();
+        }
+
+        public void SetAppearance()
+        {
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.FlatAppearance.BorderSize = 0;
+
+            label1.Font = LargeFont;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,6 +53,16 @@ namespace JobApplicationsTracker
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
