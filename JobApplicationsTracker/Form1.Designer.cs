@@ -159,7 +159,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label16.Location = new System.Drawing.Point(539, 412);
+            this.label16.Location = new System.Drawing.Point(508, 412);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(68, 25);
             this.label16.TabIndex = 45;
@@ -184,7 +184,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label15.Location = new System.Drawing.Point(535, 336);
+            this.label15.Location = new System.Drawing.Point(499, 336);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(122, 25);
             this.label15.TabIndex = 43;
@@ -195,7 +195,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label14.Location = new System.Drawing.Point(535, 279);
+            this.label14.Location = new System.Drawing.Point(499, 279);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(187, 25);
             this.label14.TabIndex = 41;
@@ -227,6 +227,7 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "N/A";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // listBox12
             // 
@@ -264,7 +265,8 @@
             "2027",
             "2028",
             "2029",
-            "2030"});
+            "2030",
+            "N/A"});
             this.listBox12.Location = new System.Drawing.Point(372, 417);
             this.listBox12.Name = "listBox12";
             this.listBox12.Size = new System.Drawing.Size(54, 24);
@@ -287,7 +289,8 @@
             "9",
             "10",
             "11",
-            "12"});
+            "12",
+            "N/A"});
             this.listBox11.Location = new System.Drawing.Point(310, 417);
             this.listBox11.Name = "listBox11";
             this.listBox11.Size = new System.Drawing.Size(56, 24);
@@ -329,7 +332,8 @@
             "28",
             "29",
             "30",
-            "31"});
+            "31",
+            "N/A"});
             this.listBox10.Location = new System.Drawing.Point(246, 417);
             this.listBox10.Name = "listBox10";
             this.listBox10.Size = new System.Drawing.Size(58, 24);
@@ -339,7 +343,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label13.Location = new System.Drawing.Point(535, 223);
+            this.label13.Location = new System.Drawing.Point(499, 228);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(197, 25);
             this.label13.TabIndex = 34;
@@ -349,7 +353,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label12.Location = new System.Drawing.Point(535, 156);
+            this.label12.Location = new System.Drawing.Point(499, 156);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(142, 25);
             this.label12.TabIndex = 33;
@@ -369,7 +373,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label10.Location = new System.Drawing.Point(535, 48);
+            this.label10.Location = new System.Drawing.Point(499, 48);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(161, 25);
             this.label10.TabIndex = 31;
@@ -386,6 +390,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "N/A";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -397,6 +402,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "N/A";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton1
             // 
@@ -446,7 +452,8 @@
             "2027",
             "2028",
             "2029",
-            "2030"});
+            "2030",
+            "N/A"});
             this.listBox9.Location = new System.Drawing.Point(372, 371);
             this.listBox9.Name = "listBox9";
             this.listBox9.Size = new System.Drawing.Size(54, 24);
@@ -469,7 +476,8 @@
             "9",
             "10",
             "11",
-            "12"});
+            "12",
+            "N/A"});
             this.listBox8.Location = new System.Drawing.Point(310, 371);
             this.listBox8.Name = "listBox8";
             this.listBox8.Size = new System.Drawing.Size(56, 24);
@@ -511,7 +519,8 @@
             "28",
             "29",
             "30",
-            "31"});
+            "31",
+            "N/A"});
             this.listBox7.Location = new System.Drawing.Point(246, 371);
             this.listBox7.Name = "listBox7";
             this.listBox7.Size = new System.Drawing.Size(58, 24);
@@ -521,7 +530,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(535, 94);
+            this.label9.Location = new System.Drawing.Point(499, 94);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(103, 25);
             this.label9.TabIndex = 24;
@@ -563,7 +572,8 @@
             "2027",
             "2028",
             "2029",
-            "2030"});
+            "2030",
+            "N/A"});
             this.listBox6.Location = new System.Drawing.Point(372, 320);
             this.listBox6.Name = "listBox6";
             this.listBox6.Size = new System.Drawing.Size(54, 24);
@@ -586,7 +596,8 @@
             "9",
             "10",
             "11",
-            "12"});
+            "12",
+            "N/A"});
             this.listBox5.Location = new System.Drawing.Point(310, 320);
             this.listBox5.Name = "listBox5";
             this.listBox5.Size = new System.Drawing.Size(56, 24);
@@ -628,7 +639,8 @@
             "28",
             "29",
             "30",
-            "31"});
+            "31",
+            "N/A"});
             this.listBox4.Location = new System.Drawing.Point(246, 320);
             this.listBox4.Name = "listBox4";
             this.listBox4.Size = new System.Drawing.Size(58, 24);
@@ -685,6 +697,7 @@
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(54, 44);
             this.listBox3.TabIndex = 19;
+            this.listBox3.SelectedIndexChanged += new System.EventHandler(this.listBox3_SelectedIndexChanged);
             // 
             // listBox2
             // 
@@ -834,6 +847,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(180, 22);
             this.textBox3.TabIndex = 7;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox2
             // 

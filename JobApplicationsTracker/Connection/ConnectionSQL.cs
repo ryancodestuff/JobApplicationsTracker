@@ -12,9 +12,9 @@ using System.Data.SqlClient;
 using System.Web;
 
 
-namespace StockDataApp.BackEnd.Services
+namespace JobApplicationsTracker.Connection
 {
-    internal class Connection
+    public class ConnectionSQL
     {
         private static SqlConnection conToDB;
 
